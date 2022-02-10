@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Page Perso</title>
+</head>
+<body>
+<p align="center"> Voici ma page Perso</p>
+<p><b>Mon avatar</b><br>
+<img src="Dali.jpg" alt="Il n'y a pas une photo" width="200" height="200"><br>
+<b>Nom</b><br>
+Zoghlami<br>
+<b>Prenom</b><br>
+Med Ali
+<br><b>Age</b><br>
+20<br>
+<b>Diplome</b>
+<br>Bac 2019<br>
+<b>Hobbies</b><br>
+<ol type="I">
+<li>Jeux Vidéo
+<ol type="a">
+<li> <a href="https://www.leagueoflegends.com/fr-fr/">LOL</a> </li>
+<li> <a href="https://playvalorant.com/fr-fr/Valorant">Valorant</a> </li>
+</ol>
+</li>
+<li>Chess</li>
+<li>Sport</li>
+</ol>
+</p>
+</body>
+</html>
+
+

@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Formulaire</title>
+    </head>
+    <body>
+        <form ACTION="insat.html" METHOD="post" NAME ="Inscrit">
+    
+        <center><h1 color="red">Inscription en licence</h1>
+        <fieldset>
+            <legend>
+                Information personnelles
+            </legend>
+            <center>
+            Votre Nom: <input type="text" size="25" maxlength="50" placeholder="Votre Nom"><br><br>
+            Votre Prenom: <input type="text" size="25" maxlength="50" placeholder="Votre prenom"><br><br>
+            Votre Age: <input type="number" placeholder="Age" /><br><br>
+            Date Naissance <input type="Date"/><br><br>
+            Votre Adresse: <textarea rows="5" cols="50" placeholder="Votre Adresse"></textarea><br><br>
+            Mot de passe: <input type="password" required><br><br>
+            Repeter votre mot de passe: <input type="password" required><br><br>
+            Votre email: <input type="email" /><br><br>
+            Votre Site: <input type="url" /><br><br>
+            </center>
+        </fieldset><br>
+        <fieldset>
+            <legend>Gestion des groupes et des options</legend><center>
+            Votre Groupe: <INPUT TYPE ="radio" NAME ="g" VALUE="g1"> Groupe 1 
+                <INPUT TYPE ="radio" NAME ="g" VALUE="g2"> Groupe 2
+                <INPUT TYPE ="radio" NAME ="g" VALUE="g3"> Groupe 3<br><br>
+                Numéro de carte d'étudiant<input type="text" size="10" maxlength="20" placeholder="Votre Numéro de carte étudiant"><br><br>
+                Choisissez les options que vous désirez
+                <select name="options" size="5">
+                    <option value="a1">J2ee
+                    <option value="a1">Android
+                    <option value="a1">.Net
+                    <option value="a1">HTML5
+                    <option value="a1">Flex
+                </select><br><br>
+                <input type="text" pattern="[INSAT0-9]{4}" title="Saisir 4 caractère dont INSAT et 0 à 9" required>
+           </center>
+        </fieldset>
+        <input type="submit" value="Valider">
+        <input type="reset" value="rénitialiser"> 
+    </center>
+        </form>
+    </body>
+</html>
